@@ -85,7 +85,7 @@ void draw() {
     }
     textAlign(CENTER, TOP);
     textSize(height/36);
-    text(info, width/2, height/8);
+    text(info, width/2, height/12);
     timer++;
   }
   if(game_state == 2) {
